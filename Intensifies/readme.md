@@ -20,5 +20,5 @@ Input File: 'baboon.jpg' (resized from 512x512)
 intensifies( 'baboon.jpg', 'baboon.gif', 3, 'BABOON', 'INTENSIFIES' ) 
 ````
 
-Output File: 'baboon.gif' (rezied from 512x512)  
+Output File: 'baboon.gif' (resized from 512x512)  
 <img src="baboon.gif" width = 256 height = 256>
