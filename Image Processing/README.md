@@ -1,5 +1,23 @@
-Image Processing Helper Functions
+<h1>Image Processing Helper Functions</h1>  
 
+
+<h3>ac_Highboost.m</h3>  
+Used to sharpen the image using the unsharp masking technique (highboosting):
+```
+ac_Highboost( I, s, alpha )  
+  I -- input matrix to perform unsharp on
+  s -- blur filter size
+  alpha -- unsharp coefficient
+```
+
+<h3>ac_Unsharp.m</h3>  
+Used to sharpen the image using the unsharp masking technique.  Operates on multi-channel images:
+```
+ac_Unsharp( I, s, alpha )  
+  I -- input matrix to perform unsharp on
+  s -- blur filter size
+  alpha -- unsharp coefficient
+```
 
 <h3>ac_Disk.m</h3>  
 Used to create a disk filter: 
@@ -27,11 +45,5 @@ ac_Nonmax( I, win )
   win -- window size
 ```
 
-<h3>ac_Unsharp.m</h3>  
-Used to perform non-maximal supression.  Operates on multi-channel images:
-```
-ac_Unsharp( I, s, alpha )  
-  I -- input matrix to perform unsharp on
-  s -- blur filter size
-  alpha -- unsharp coefficient
-```
+
+
