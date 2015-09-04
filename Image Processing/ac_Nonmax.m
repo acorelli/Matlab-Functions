@@ -1,4 +1,4 @@
-function [out] = nonmax(I, win)
+function [out] = ac_Nonmax(I, win)
 
 K = ordfilt2(I,win*win,ones(win,win));
 
