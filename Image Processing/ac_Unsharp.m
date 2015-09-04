@@ -1,4 +1,4 @@
-function [out] = myUnsharp(I,s,alpha)
+function [out] = ac_Unsharp(I,s,alpha)
 
     I = im2double(I);
 
