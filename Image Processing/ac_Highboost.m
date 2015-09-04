@@ -1,4 +1,4 @@
-function [out] = highboost(I,s,alpha)
+function [out] = ac_Highboost(I,s,alpha)
 
 h = fspecial('average',s);
 
