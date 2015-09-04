@@ -1,4 +1,4 @@
-function [s] = myDisk(outer, inner, offset)
+function [s] = ac_Disk(outer, inner, offset)
 
 s = zeros(outer);
 s(floor(end/2)+offset(1)-1,floor(end/2)+offset(2)-1) = 1;

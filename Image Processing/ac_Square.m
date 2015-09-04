@@ -1,4 +1,4 @@
-function [s] = mySquare(outer, inner, offset)
+function [s] = ac_Square(outer, inner, offset)
 
 s = zeros(outer);
 s(floor(end/2)+offset(1),floor(end/2)+offset(2)) = 1;
