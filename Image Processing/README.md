@@ -1,7 +1,7 @@
-<h1>Image Processing Helper Functions</h1>  
+# Image Processing Helper Functions  
 
 
-<h3>ac_Highboost.m</h3>  
+### ac_Highboost.m  
 Used to sharpen the image using the unsharp masking technique (highboosting):
 ```
 out = ac_Highboost( I, s, alpha )  
@@ -12,7 +12,7 @@ out = ac_Highboost( I, s, alpha )
   out -- sharpened image
 ```
 
-<h3>ac_Unsharp.m</h3>  
+### ac_Unsharp.m  
 Used to sharpen the image using the unsharp masking technique.  Operates on multi-channel images:
 ```
 out = ac_Unsharp( I, s, alpha )  
@@ -23,7 +23,7 @@ out = ac_Unsharp( I, s, alpha )
   out -- sharpened image
 ```
 
-<h3>ac_Disk.m</h3>  
+### ac_Disk.m  
 Used to create a disk filter: 
 ```
 out = ac_Disk( outer, inner, [offset_x offset_y])  
@@ -34,7 +34,7 @@ out = ac_Disk( outer, inner, [offset_x offset_y])
   out -- zero padded disk filter
 ```
 
-<h3>ac_Square.m</h3>  
+### ac_Square.m  
 Used to create a square filter:
 ```
 out = ac_Square( outer, inner, [offset_x offset_y])  
@@ -45,7 +45,7 @@ out = ac_Square( outer, inner, [offset_x offset_y])
   out -- zero padded square filter
 ```
 
-<h3>ac_Nonmax.m</h3>  
+### ac_Nonmax.m  
 Used to perform non-maximal suppression:
 ```
 out = ac_Nonmax( I, win )  
